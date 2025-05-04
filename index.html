@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuardian AI | Advanced Web Vulnerability Scanner</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">CyberGuardian AI</h1>
+            <p class="tagline">Advanced Real-time Vulnerability Scanner</p>
+        </header>
+
+        <div class="scan-input">
+            <input type="url" id="targetUrl" placeholder="Enter website URL (e.g., https://example.com)">
+            <button onclick="startScan()">Initiate Deep Scan</button>
+        </div>
+
+        <div class="scanning-animation" id="loading">
+            <div class="loader"></div>
+            <p>Scanning in Progress - Analyzing 256+ Vulnerability Vectors</p>
+        </div>
+
+        <div class="results" id="results"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
